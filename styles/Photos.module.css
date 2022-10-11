@@ -1,0 +1,15 @@
+ .photos {
+     display: grid;
+     grid-template-columns: repeat(10,1fr);
+     grid-gap: 1rem;
+ }
+
+ .photos li{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .photos li img{
+    width: 150px;
+    height: 150px;
+}
